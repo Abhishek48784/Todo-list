@@ -1,0 +1,40 @@
+.About {
+  min-height: 70vh;
+  background-color: rgb(214, 236, 250);
+  padding: 5%;
+  margin: 40px auto;
+}
+
+.container > img {
+  width: 50%;
+  border-radius: 8px;
+}
+
+.Home {
+  padding-top: 2px;
+  background-color: rgb(214, 236, 250);
+}
+
+.TodoItem {
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: lightcyan;
+}
+  
+
+@media (min-width: 992px) {
+  .TodoItem {
+    width: 45%;
+    display: inline-block;
+  }
+}
+
+
+
+
+
+
+
